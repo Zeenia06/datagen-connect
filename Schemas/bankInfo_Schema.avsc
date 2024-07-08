@@ -1,0 +1,121 @@
+{
+  "namespace": "confluent",
+  "name": "bankInfo",
+  "type": "record",
+  "fields": [
+    {
+      "name": "org_id",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "iteration": {
+            "start": 1
+          }
+        }
+      }
+    },
+    {
+      "name": "gatway_id",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "iteration": {
+            "start": 1
+          }
+        }
+      }
+    },
+    {
+      "name": "subscription_key",
+      "type": "string"
+    },
+    {
+      "name": "request_path",
+      "type": "string"
+    },
+    {
+      "name": "request_method",
+      "type": "string"
+    },
+    {
+      "name": "request_headers",
+      "type": "string"
+    },
+    {
+      "name": "response_status",
+      "type": "string"
+    },
+    {
+      "name": "response_headers",
+      "type": "string"
+    },
+    {
+      "name": "request_bytes",
+      "type": "int"
+    },
+    {
+      "name": "response_bytes",
+      "type": "int"
+    },
+    {
+      "name": "subscription_name",
+      "type": "string"
+    },
+    {
+      "name": "product_id",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "iteration": {
+            "start": 1
+          }
+        }
+      }
+    },
+    {
+      "name": "user_email",
+      "type": "string"
+    },
+    {
+      "name": "auto_renew",
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "name": "start_date",
+      "type": {
+        "type": "int",
+        "logicalType": "date"
+      }
+    },
+    {
+      "name": "end_date",
+      "type": {
+        "type": "int",
+        "logicalType": "date"
+      }
+    },
+    {
+      "name": "subscription_uuid",
+      "type": {
+        "type": "string",
+        "logicalType": "uuid"
+      }
+    },
+    {
+      "name": "application_uuid",
+      "type": {
+        "type": "string",
+        "logicalType": "uuid"
+      }
+    },
+    {
+      "name": "portal_id",
+      "type": "string"
+    },
+    {
+      "name": "plan_name",
+      "type": "string"
+    }
+  ]
+}

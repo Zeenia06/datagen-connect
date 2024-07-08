@@ -1,0 +1,11 @@
+{
+  "name": "ipInfo-Connector",
+  "config": {
+    "kafka.topic": "ipInfo",
+    "tasks.max": "1",
+    "connector.class": "io.confluent.kafka.connect.datagen.DatagenConnector",
+    "schema.filename": "/tmp/Schemas/ipInfo_Schema.avsc",
+    "schema.keyfield": "ip",
+    "errors.tolerance": "all"
+  }
+}

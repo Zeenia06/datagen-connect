@@ -1,0 +1,150 @@
+{
+  "namespace": "confluent",
+  "name": "IpInfo",
+  "type": "record",
+  "compatibility": "NONE",
+  "fields": [
+    {
+      "name": "ip",
+      "type": {
+        "type": "string",
+        "arg.properties": {
+          "format": "ipv4"
+        }
+      }
+    },
+    {
+      "name": "response",
+      "type": {
+        "type": "record",
+        "name": "Response",
+        "fields": [
+          {
+            "name": "status",
+            "type": {
+              "type": "int",
+              "arg.properties": {
+                "options": [
+                  200,
+                  302,
+                  404,
+                  405,
+                  500,
+                  406
+
+                ]
+              }
+            }
+          },
+          {
+            "name": "body",
+            "type": "string"
+
+          },
+          {
+            "name": "headers",
+            "type": {
+              "type": "record",
+              "name": "ResponseHeaders",
+              "fields": [
+                {
+                  "name": "content_type",
+                  "type": "string"
+                },
+                {
+                  "name": "content_length",
+                  "type": {
+                    "type": "string",
+                    "arg.properties": {
+                      "iteration": {
+                        "start": 1,
+                        "step": 10
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "x_kong_upstream_latency",
+                  "type": {
+                    "type": "string",
+                    "arg.properties": {
+                      "iteration": {
+                        "start" : 30,
+                        "step": 5
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "date",
+                  "type": {
+                    "type": "long",
+                    "logicalType": "timestamp-millis"
+                  }
+                },
+                {
+                  "name": "x_kong_proxy_latency",
+                  "type": {
+                    "type": "string",
+                    "arg.properties": {
+                      "iteration": {
+                        "start" : 30,
+                        "step": 5
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "request",
+      "type": {
+        "type": "record",
+        "name": "Request",
+        "fields": [
+          {
+            "name": "body",
+            "type": "string"
+          },
+          {
+            "name": "method",
+            "type": "string"
+          },
+          {
+            "name": "path",
+            "type": "string"
+          },
+          {
+            "name": "headers",
+            "type": {
+              "type": "record",
+              "name": "RequestHeaders",
+              "fields": [
+                {
+                  "name": "api_key",
+                  "type": "string"
+                },
+                {
+                  "name": "accept",
+                  "type": "string"
+                },
+                {
+                  "name": "connection",
+                  "type": "string"
+                },
+                {
+                  "name": "host",
+                  "type": "string"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

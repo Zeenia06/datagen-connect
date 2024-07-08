@@ -1,0 +1,22 @@
+{
+    "org_id": "acme-bank",
+    "gateway_id": "acme-kong-01",
+    "subscription_key": "my-key",
+    "request_path": "/pet",
+    "request_method": "POST",
+    "request_headers": "{\"api_key\": \"RJpqwfE1234RQWPRFMPWQFM\", \"accept\": \"application/json\"}",
+    "response_status": 201,
+    "response_headers": "{\"x-kong-proxy-latency\": \"30\", \"content-length\": \"18186\"}",
+    "request_bytes": 129,
+    "response_bytes": 154,
+    "subscription_name": "ZPay Subscription",
+    "product_id": "connect360",
+    "user_email": "ashwin@platformatory.com",
+    "auto_renew": true,
+    "start_date": "2024-02-25",
+    "end_date": "2024-03-25",
+    "subscription_uuid":"10557501-8f24-4894-9e70-6cc9c6a05a64",
+    "application_uuid":"10557501-8f24-4894-9e70-6cc9c6a05a64",
+    "portal_id": "nextgen-banking",
+    "plan_name": "basic"
+}

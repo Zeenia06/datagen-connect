@@ -1,0 +1,11 @@
+{
+  "name": "datagen-bank",
+  "config": {
+    "kafka.topic": "bankInfo",
+    "tasks.max": "3",
+    "connector.class": "io.confluent.kafka.connect.datagen.DatagenConnector",
+    "schema.filename": "/tmp/Schemas/bankInfo_Schema.avsc",
+    "schema.keyfield": "org_id",
+    "errors.tolerance": "all"
+  }
+}

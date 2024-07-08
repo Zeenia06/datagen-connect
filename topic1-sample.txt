@@ -1,0 +1,25 @@
+{
+  "ip": "172.28.0.1",
+  "response": {
+    "status": 200,
+    "body": "DUMMY",
+    "headers": {
+      "content-type": "text/html; charset=UTF-8",
+      "content-length": "18186",
+      "x-kong-upstream-latency": "261",
+      "date": "Thu, 09 Jun 2022 05:36:33 GMT",
+      "x-kong-proxy-latency": "30"
+    }
+  },
+  "request": {
+    "body": "DUMMY",
+    "method": "GET",
+    "path": "/yahoo",
+    "headers": {
+      "api_key": "RJpqwfE1234RQWPRFMPWQFM",
+      "accept": "application/json",
+      "connection": "keep-alive",
+      "host": "localhost:8000"
+    }
+  }
+}
