@@ -2608,40 +2608,40 @@
           "pluginVersion": "8.1.3",
           "targets": [
             {
-              "expr": "kafka_server_ZooKeeperClientMetrics_50thPercentile{name=\"ZooKeeperRequestLatencyMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\"})",
+              "expr": "kafka_server_ZooKeeperClientMetrics_50thPercentile{name=\"ZooKeeperRequestLatencyMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "A"
             },
             {
-              "expr": "kafka_server_ZooKeeperClientMetrics_75thPercentile{name=\"ZooKeeperRequestLatencyMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\"})",
+              "expr": "kafka_server_ZooKeeperClientMetrics_75thPercentile{name=\"ZooKeeperRequestLatencyMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
-              "refId": "A"
+              "refId": "B"
             },
             {
-              "expr": "kafka_server_ZooKeeperClientMetrics_95thPercentile{name=\"ZooKeeperRequestLatencyMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\"})",
+              "expr": "kafka_server_ZooKeeperClientMetrics_95thPercentile{name=\"ZooKeeperRequestLatencyMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
-              "refId": "A"
+              "refId": "C"
             },
             {
-              "expr": "kafka_server_ZooKeeperClientMetrics_98thPercentile{name=\"ZooKeeperRequestLatencyMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\"})",
+              "expr": "kafka_server_ZooKeeperClientMetrics_98thPercentile{name=\"ZooKeeperRequestLatencyMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
-              "refId": "A"
+              "refId": "D"
             },
             {
-              "expr": "kafka_server_ZooKeeperClientMetrics_999thPercentile{name=\"ZooKeeperRequestLatencyMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\"})",
+              "expr": "kafka_server_ZooKeeperClientMetrics_999thPercentile{name=\"ZooKeeperRequestLatencyMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
-              "refId": "A"
+              "refId": "E"
             },
             {
-              "expr": "kafka_server_ZooKeeperClientMetrics_99thPercentile{name=\"ZooKeeperRequestLatencyMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\"})",
+              "expr": "kafka_server_ZooKeeperClientMetrics_99thPercentile{name=\"ZooKeeperRequestLatencyMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
-              "refId": "A"
+              "refId": "F"
             }
           ],
           "timeFrom": null,
@@ -3501,37 +3501,37 @@
           "pluginVersion": "8.1.3",
           "targets": [
             {
-              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "A"
             },
             {
-              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "B"
             },
             {
-              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "C"
             },
             {
-              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "D"
             },
             {
-              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "E"
             },
             {
-              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "F"
@@ -3621,37 +3621,37 @@
           "pluginVersion": "8.1.3",
           "targets": [
             {
-              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "A"
             },
             {
-              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "B"
             },
             {
-              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "C"
             },
             {
-              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "D"
             },
             {
-              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "E"
             },
             {
-              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "F"
@@ -3741,37 +3741,37 @@
           "pluginVersion": "8.1.3",
           "targets": [
             {
-              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "A"
             },
             {
-              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "B"
             },
             {
-              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "C"
             },
             {
-              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "D"
             },
             {
-              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "E"
             },
             {
-              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "F"
@@ -3861,37 +3861,37 @@
           "pluginVersion": "8.1.3",
           "targets": [
             {
-              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"ResponseQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"ResponseQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "A"
             },
             {
-              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"ResponseQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"ResponseQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "B"
             },
             {
-              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"ResponseQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"ResponseQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "C"
             },
             {
-              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"ResponseQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"ResponseQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "D"
             },
             {
-              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"ResponseQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"ResponseQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "E"
             },
             {
-              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"ResponseQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"ResponseQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "F"
@@ -3982,37 +3982,37 @@
           "pluginVersion": "8.1.3",
           "targets": [
             {
-              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "A"
             },
             {
-              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "B"
             },
             {
-              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "C"
             },
             {
-              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "D"
             },
             {
-              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "E"
             },
             {
-              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"})",
+              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Produce\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "F"
@@ -4118,37 +4118,37 @@
           "pluginVersion": "8.1.3",
           "targets": [
             {
-              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "A"
             },
             {
-              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "B"
             },
             {
-              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "C"
             },
             {
-              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "D"
             },
             {
-              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "E"
             },
             {
-              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "F"
@@ -4238,37 +4238,37 @@
           "pluginVersion": "8.1.3",
           "targets": [
             {
-              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "A"
             },
             {
-              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "B"
             },
             {
-              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "C"
             },
             {
-              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "D"
             },
             {
-              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "E"
             },
             {
-              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "F"
@@ -4358,37 +4358,37 @@
           "pluginVersion": "8.1.3",
           "targets": [
             {
-              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "A"
             },
             {
-              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "B"
             },
             {
-              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "C"
             },
             {
-              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "D"
             },
             {
-              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "E"
             },
             {
-              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "F"
@@ -4479,37 +4479,37 @@
           "pluginVersion": "8.1.3",
           "targets": [
             {
-              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"ResponseQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"ResponseQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "A"
             },
             {
-              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"ResponseQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"ResponseQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "B"
             },
             {
-              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"ResponseQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"ResponseQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "C"
             },
             {
-              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"ResponseQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"ResponseQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "D"
             },
             {
-              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"ResponseQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"ResponseQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "E"
             },
             {
-              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"ResponseQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"ResponseQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "F"
@@ -4600,37 +4600,37 @@
           "pluginVersion": "8.1.3",
           "targets": [
             {
-              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "A"
             },
             {
-              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "B"
             },
             {
-              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "C"
             },
             {
-              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "D"
             },
             {
-              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "E"
             },
             {
-              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"})",
+              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"Fetch\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "F"
@@ -4736,37 +4736,37 @@
           "pluginVersion": "8.1.3",
           "targets": [
             {
-              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "A"
             },
             {
-              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "B"
             },
             {
-              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "C"
             },
             {
-              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "D"
             },
             {
-              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "E"
             },
             {
-              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"RequestQueueTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "F"
@@ -4857,37 +4857,37 @@
           "pluginVersion": "8.1.3",
           "targets": [
             {
-              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "A"
             },
             {
-              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "B"
             },
             {
-              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "C"
             },
             {
-              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "D"
             },
             {
-              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "E"
             },
             {
-              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"LocalTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "F"
@@ -4977,37 +4977,37 @@
           "pluginVersion": "8.1.3",
           "targets": [
             {
-              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "A"
             },
             {
-              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "B"
             },
             {
-              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "C"
             },
             {
-              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "D"
             },
             {
-              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "E"
             },
             {
-              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"RemoteTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "F"
@@ -5097,37 +5097,37 @@
           "pluginVersion": "8.1.3",
           "targets": [
             {
-              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"ResponseQueueTimeMs\".job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"ResponseQueueTimeMs\".job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "A"
             },
             {
-              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"ResponseQueueTimeMs\".job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"ResponseQueueTimeMs\".job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "B"
             },
             {
-              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"ResponseQueueTimeMs\".job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"ResponseQueueTimeMs\".job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "C"
             },
             {
-              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"ResponseQueueTimeMs\".job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"ResponseQueueTimeMs\".job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "D"
             },
             {
-              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"ResponseQueueTimeMs\".job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"ResponseQueueTimeMs\".job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "E"
             },
             {
-              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"ResponseQueueTimeMs\".job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"ResponseQueueTimeMs\".job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "F"
@@ -5218,37 +5218,37 @@
           "pluginVersion": "8.1.3",
           "targets": [
             {
-              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_50thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "A"
             },
             {
-              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_75thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "B"
             },
             {
-              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_95thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "C"
             },
             {
-              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_98thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "D"
             },
             {
-              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_999thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "E"
             },
             {
-              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"})",
+              "expr": "kafka_network_RequestMetrics_99thPercentile{name=\"ResponseSendTimeMs\",job=\"kafka-broker\",env=\"$env\",instance=~\"$instance\",request=\"FetchFollower\"}",
               "hide": false,
               "legendFormat": "{{instance}}",
               "refId": "F"
